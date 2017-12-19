@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_base"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="属性动画基本用法"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_xml"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="使用xml编写属性动画"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_value_animator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="ValueAnimator的实际应用"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_object_animator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="自定义TypeEvaluator"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_interpolator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Interpolator（插值器）"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</ScrollView>
